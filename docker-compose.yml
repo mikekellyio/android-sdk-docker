@@ -1,7 +1,7 @@
 version: "2.1"
 
 services:
-  android-docker:
+  android-sdk:
     image: android-sdk
     build: .
     ports:

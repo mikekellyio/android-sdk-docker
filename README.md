@@ -17,7 +17,7 @@ docker-compose build
 - You may want to tag the resulting image, for example with the SDK version. The below applies the tag `28` allowing you reference this image with `android-sdk:28`
 
 ```
-docker tag android-sdk 28
+docker tag android-sdk android-sdk:28
 ```
 
 4. Save image to file for installation elsewhere.
